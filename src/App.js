@@ -14,16 +14,18 @@ import TestCatalog from "./components/TestCatalog"
 function App() {
   return (
     <>
-    <div>
-      <Router>
-        <AuthProvider>
-          <Switch>
-            <LandingPage />
-            <TestCatalog />
-          </Switch>
-      </AuthProvider>
-      </Router>
-    </div>
+      <div>
+        <Router>
+          <AuthProvider>
+            <Switch>
+              <LandingPage />
+            </Switch>
+          </AuthProvider>
+        </Router>
+        <div>
+          <TestCatalog />
+        </div>
+      </div>
       <Container className="d-felx align-items-center justify-content-center"
         style={{ minHeight: "100vh" }}
       >
@@ -41,9 +43,9 @@ function App() {
           </Router>
         </div>
       </Container>
-      </>
+    </>
   )
 }
-  
+
 
 export default App;
