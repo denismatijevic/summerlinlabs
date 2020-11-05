@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./style.css"
 import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView } from "mdbreact";
 
@@ -29,48 +29,46 @@ const TestCatalog = () => {
                   src="https://mdbootstrap.com/img/Photos/Others/images/86.jpg"
                   alt=""
                 />
-                <a href="#!">
                   <MDBMask overlay="white-slight" className="waves-light" />
-                </a>
               </MDBView>
               
               <div className="d-flex justify-content-between text-primary" style={newsStyle}>
                 <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                  <a>ALBUMIN</a>
+                  <a href="#!">ALBUMIN</a>
                 </MDBCol>
-                <a class="text-success">
+                <a href="#!" className="text-success">
                   <MDBIcon icon="dollar-sign" /> 29
                 </a>
               </div>
               <div className="d-flex justify-content-between text-primary" style={newsStyle}>
                 <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                  <a>ALBUMIN / GLOBULIN</a>
+                  <a href="#!">ALBUMIN / GLOBULIN</a>
                 </MDBCol>
-                <a class="text-success">
+                <a href="#!"className="text-success">
                   <MDBIcon icon="dollar-sign" /> 29
                 </a>
               </div>
               <div className="d-flex justify-content-between text-primary" style={newsStyle}>
                 <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                  <a>ALK PHOS</a>
+                  <a href="#!">ALK PHOS</a>
                 </MDBCol>
-                <a class="text-success">
+                <a href="#!" className="text-success">
                   <MDBIcon icon="dollar-sign" /> 29
                 </a>
               </div>
               <div className="d-flex justify-content-between text-primary" style={newsStyle}>
                 <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                  <a>ALT</a>
+                  <a href="#!">ALT</a>
                 </MDBCol>
-                <a class="text-success">
+                <a href="#!" className="text-success">
                   <MDBIcon icon="dollar-sign" /> 29
                 </a>
               </div>
               <div className="d-flex justify-content-between mb-4 text-primary" style={newsStyle}>
                 <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                  <a>AMPHETAM CONFIRM, UR</a>
+                  <a href="#!">AMPHETAM CONFIRM, UR</a>
                 </MDBCol>
-                <a class="text-success">
+                <a href="#!" className="text-success">
                  <MDBIcon icon="dollar-sign" /> 59
                 </a>
               </div>
@@ -93,41 +91,41 @@ const TestCatalog = () => {
               </MDBView>
               <div className="d-flex justify-content-between text-primary" style={newsStyle}>
                 <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                  <a>FIBRINOGEN</a>
+                  <a href="#!">FIBRINOGEN</a>
                 </MDBCol>
-                <a class="text-success">
+                <a href="#!" className="text-success">
                   <MDBIcon icon="dollar-sign" /> 49
                 </a>
               </div>
               <div className="d-flex justify-content-between text-primary" style={newsStyle}>
                 <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                  <a>FOLATE, SERUM</a>
+                  <a href="#!">FOLATE, SERUM</a>
                 </MDBCol>
-                <a class="text-success">
+                <a href="#!" className="text-success">
                   <MDBIcon icon="dollar-sign" /> 59
                 </a>
               </div>
               <div className="d-flex justify-content-between text-primary" style={newsStyle}>
                 <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                  <a>FSH</a>
+                  <a href="#!">FSH</a>
                 </MDBCol>
-                <a class="text-success">
+                <a href="#!" className="text-success">
                   <MDBIcon icon="dollar-sign" /> 49
                 </a>
               </div>
               <div className="d-flex justify-content-between text-primary" style={newsStyle}>
                 <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                  <a>FT4</a>
+                  <a href="#!">FT4</a>
                 </MDBCol>
-                <a class="text-success">
+                <a href="#!" className="text-success">
                   <MDBIcon icon="dollar-sign" /> 39
                 </a>
               </div>
               <div className="d-flex justify-content-between mb-4 text-primary" style={newsStyle}>
                 <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                  <a>GC / CHLAMYDIA AMPLIFICATION, GENITAL</a>
+                  <a href="#!">GC / CHLAMYDIA AMPLIFICATION, GENITAL</a>
                 </MDBCol>
-                <a class="text-success">
+                <a href="#!" className="text-success">
                  <MDBIcon icon="dollar-sign" /> 89
                 </a>
               </div>
@@ -150,41 +148,41 @@ const TestCatalog = () => {
               </MDBView>
               <div className="d-flex justify-content-between text-primary" style={newsStyle}>
                 <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                  <a>PHOSPHORUS</a>
+                  <a href="#!">PHOSPHORUS</a>
                 </MDBCol>
-                <a class="text-success">
+                <a href="#!" className="text-success">
                   <MDBIcon icon="dollar-sign" /> 29
                 </a>
               </div>
               <div className="d-flex justify-content-between text-primary" style={newsStyle}>
                 <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                  <a>PREG BLOOD</a>
+                  <a href="#!">PREG BLOOD</a>
                 </MDBCol>
-                <a class="text-success">
+                <a href="#!" className="text-success">
                   <MDBIcon icon="dollar-sign" /> 29
                 </a>
               </div>
               <div className="d-flex justify-content-between text-primary" style={newsStyle}>
                 <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                  <a>PREG URINE</a>
+                  <a href="#!">PREG URINE</a>
                 </MDBCol>
-                <a class="text-success">
+                <a href="#!" className="text-success">
                   <MDBIcon icon="dollar-sign" /> 29
                 </a>
               </div>
               <div className="d-flex justify-content-between text-primary" style={newsStyle}>
                 <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                  <a>PROGESTERONE</a>
+                  <a href="#!">PROGESTERONE</a>
                 </MDBCol>
-                <a class="text-success">
+                <a href="#!" className="text-success">
                   <MDBIcon icon="dollar-sign" /> 49
                 </a>
               </div>
               <div className="d-flex justify-content-between mb-4 text-primary" style={newsStyle}>
                 <MDBCol size="11" className="text-truncate pl-0 mb-3">
-                  <a>PROTHROMBIN TIME</a>
+                  <a href="#!">PROTHROMBIN TIME</a>
                 </MDBCol>
-                <a class="text-success">
+                <a href="#!" className="text-success">
                  <MDBIcon icon="dollar-sign" /> 49
                 </a>
               </div>

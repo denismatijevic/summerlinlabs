@@ -15,7 +15,7 @@ async function handleLogout() {
     await logout()
     history.pushState("/login")
   } catch {
-    setError('failed to logout')
+    setError('Failed to logout')
   }
 }
 
