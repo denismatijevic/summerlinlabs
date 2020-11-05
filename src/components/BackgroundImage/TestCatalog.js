@@ -12,7 +12,7 @@ const TestCatalog = () => {
   return (
     <MDBCard
         className="my-5 px-5 mx-auto bg"
-        style={{ fontWeight: 300, maxWidth: "100%" }} 
+        style={{ fontWeight: 300, maxWidth: "95%" }} 
       >
         <MDBCardBody style={{ paddingTop: 0 }}>
           <h2 className="h1-responsive font-weight-bold my-5 text-center">
