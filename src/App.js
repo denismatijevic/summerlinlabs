@@ -17,7 +17,7 @@ function App() {
       <Router>
         <AuthProvider>
           <Switch>
-            <Route path="/landing-page" component={LandingPage} />
+            <LandingPage />
           </Switch>
       </AuthProvider>
       </Router>
