@@ -9,7 +9,7 @@ import {
   MDBCollapse,
   MDBIcon,
 } from "mdbreact";
-import { BrowserRouter as Router } from "react-router-dom";
+import { Router } from "react-router-dom";
 
 class NavBar extends Component {
   state = {
@@ -22,7 +22,7 @@ class NavBar extends Component {
 
   render() {
     return (
-      <Router>
+      
         <MDBNavbar color="default-color" dark expand="md">
           <MDBNavbarBrand>
             <strong className="white-text">Summerlin Labs</strong>
@@ -65,7 +65,7 @@ class NavBar extends Component {
             </MDBNavbarNav>
           </MDBCollapse>
         </MDBNavbar>
-      </Router>
+     
     );
   }
 }

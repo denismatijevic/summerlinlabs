@@ -1,11 +1,12 @@
 import React from "react";
-import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon, MDBInput } from 'mdbreact';
+import { MDBBtn, MDBIcon, MDBInput, MDBCard, MDBCardBody } from 'mdbreact';
 
 const ContactForm = () => {
 return (
-<MDBContainer>
-  <MDBRow>
-    <MDBCol md="6">
+<MDBCard className="my-5 px-5 mx-auto bg"
+      style={{ fontWeight: 300, maxWidth: "80%" }}>
+  <MDBCardBody>
+    
       <form>
         <p className="h5 text-center mb-4">Contact us!</p>
         <div className="grey-text">
@@ -23,9 +24,9 @@ return (
           </MDBBtn>
         </div>
       </form>
-    </MDBCol>
-  </MDBRow>
-</MDBContainer>
+    
+  </MDBCardBody>
+</MDBCard>
 );
 };
 
