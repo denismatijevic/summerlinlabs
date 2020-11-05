@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "./style.css"
-import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView, MDBBadge } from "mdbreact";
+import Lab1 from "../../Assets/national-cancer-institute.jpg"
+import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView } from "mdbreact";
 
 const TestCatalog = () => {
 
