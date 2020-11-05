@@ -1,15 +1,13 @@
 import React from "react";
 import Wrapper from "../components/Wrapper/index";
-import TableSearch from "../components/TableSearch/TableSearch";
-import TestCatalog from "../components/BackgroundImage/TestCatalog";
+import Jumbotron from "../components/Jumbotron/Jumbotron";
 
-function Homepage() {
+function HomePage() {
   return (
     <Wrapper>
-      <TestCatalog />
-      <TableSearch />
+      <Jumbotron />
     </Wrapper>
   );
 }
 
-export default Homepage;
+export default HomePage;
