@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBDataTable, MDBContainer, MDBCard, MDBCardBody } from "mdbreact";
+import { MDBDataTable, MDBCard, MDBCardBody } from "mdbreact";
 
 const TableSearch = () => {
   const data = {
