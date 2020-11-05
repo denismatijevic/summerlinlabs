@@ -7,13 +7,6 @@ import "mdbreact/dist/css/mdb.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import HomePage from "./HomePage";
 
-// ReactDOM.render(
-//   <div>
-//     <App />
-//   </div>,
-//   document.getElementById('root')
-// );
-
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
