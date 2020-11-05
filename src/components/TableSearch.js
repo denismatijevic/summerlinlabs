@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBDataTable } from "mdbreact";
+import { MDBDataTable, MDBContainer } from "mdbreact";
 
 const TableSearch = () => {
   const data = {
@@ -117,7 +117,11 @@ const TableSearch = () => {
     ],
   };
 
-  return <MDBDataTable striped bordered small data={data} />;
+  return (
+    <MDBContainer>
+      <MDBDataTable striped bordered small data={data} />
+    </MDBContainer>
+  );
 };
 
 export default TableSearch;
