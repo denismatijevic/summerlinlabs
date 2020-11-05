@@ -9,6 +9,7 @@ import PrivateRoute from './components/PrivateRoute'
 import ForgotPassword from "./components/ForgotPassword"
 import UpdateProfile from "./components/UpdateProfile"
 import LandingPage from "./components/LandingPage"
+import TestCatalog from "./components/TestCatalog"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <AuthProvider>
           <Switch>
             <LandingPage />
+            <TestCatalog />
           </Switch>
       </AuthProvider>
       </Router>
