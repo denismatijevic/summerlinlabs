@@ -16,7 +16,7 @@ const Jumbotron = () => {
       <MDBRow>
         <MDBCol>
           <MDBJumbotron style={{ padding: 0 }}>
-            <MDBCol className="text-white text-center py-5 px-4 my-5 bg">
+            <MDBCol className="text-white text-center py-5 px-4 my-5 jumbo">
               <MDBCol className="py-5">
                 <MDBCardTitle className="h1-responsive pt-3 m-5 font-weight-bold">
                   Press Release
