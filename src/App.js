@@ -8,9 +8,20 @@ import Login from "./components/Login"
 import PrivateRoute from './components/PrivateRoute'
 import ForgotPassword from "./components/ForgotPassword"
 import UpdateProfile from "./components/UpdateProfile"
+import LandingPage from "./components/LandingPage"
 
 function App() {
   return (
+    <>
+    <div>
+      <Router>
+        <AuthProvider>
+          <Switch>
+            <Route path="/landing-page" component={LandingPage} />
+          </Switch>
+      </AuthProvider>
+      </Router>
+    </div>
       <Container className="d-felx align-items-center justify-content-center"
         style={{ minHeight: "100vh" }}
       >
@@ -28,6 +39,7 @@ function App() {
           </Router>
         </div>
       </Container>
+      </>
   )
 }
   
