@@ -7,11 +7,7 @@ import TableSearch from "./components/TableSearch/TableSearch";
 
 function HomePage() {
   return (
-<<<<<<< HEAD
-    <div className="app" >
-=======
     <div className="app">
->>>>>>> master
       <NavBar />
       <TestCatalog />
       <TableSearch />
