@@ -1,16 +1,27 @@
 import React from 'react';
-import Signup from './Signup';
+import Signup from './components/Signup';
 import { Container } from 'react-bootstrap';
-import { AuthProvider } from "../contexts/AuthContext";
+import { AuthProvider } from "./contexts/AuthContext";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import Dashboard from "./Dashboard"
-import Login from "./Login"
-import PrivateRoute from './PrivateRoute'
-import ForgotPassword from "./ForgotPassword"
-import UpdateProfile from "./UpdateProfile"
+import Dashboard from "./components/Dashboard"
+import Login from "./components/Login"
+import PrivateRoute from './components/PrivateRoute'
+import ForgotPassword from "./components/ForgotPassword"
+import UpdateProfile from "./components/UpdateProfile"
+import LandingPage from "./components/LandingPage"
 
 function App() {
   return (
+    <>
+    <div>
+      <Router>
+        <AuthProvider>
+          <Switch>
+            <Route path="/landing-page" component={LandingPage} />
+          </Switch>
+      </AuthProvider>
+      </Router>
+    </div>
       <Container className="d-felx align-items-center justify-content-center"
         style={{ minHeight: "100vh" }}
       >
@@ -28,6 +39,7 @@ function App() {
           </Router>
         </div>
       </Container>
+      </>
   )
 }
   
