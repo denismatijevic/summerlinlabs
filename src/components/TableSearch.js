@@ -64,7 +64,55 @@ const TableSearch = () => {
       },
       {
         name: "Barbiturates CONF UR",
-        salary: "$59",
+        price: "$59",
+      },
+      {
+        name: "Benzodiazepine CONF, UR",
+        price: "$59",
+      },
+      {
+        name: "Beta HCG Quant Tumor Maker",
+        price: "$69",
+      },
+      {
+        name: "Blood Smear Review Pathologist",
+        price: "$79",
+      },
+      {
+        name: "BMP",
+        price: "$39",
+      },
+      {
+        name: "BUN",
+        price: "$29",
+      },
+      {
+        name: "BUN/Creat",
+        price: "$29",
+      },
+      {
+        name: "Calcium",
+        price: "$29",
+      },
+      {
+        name: "Cannabinoid CONF, Urine",
+        price: "$59",
+      },
+      {
+        name: "Cholesterol",
+        price: "$29",
+      },
+      {
+        name: "Chloride",
+        price: "$29",
+      },
+      {
+        name: "CMP",
+        price: "$49",
+      },
+      {
+        name: "Carbon Dioxide",
+        price: "$29",
       },
     ],
   };
