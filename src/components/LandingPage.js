@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBDropdown,
-MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon } from "mdbreact";
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBIcon } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
 
 
@@ -16,7 +15,7 @@ toggleCollapse = () => {
 render() {
   return (
     <Router>
-      <MDBNavbar className="w-80" color="default-color" dark expand="md">
+      <MDBNavbar fixed="top" color="default-color" dark expand="md">
         <MDBNavbarBrand>
           <strong className="white-text">Summerlin Labs</strong>
         </MDBNavbarBrand>
@@ -33,21 +32,10 @@ render() {
               <MDBNavLink to="#!">Make An Appointment</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Contact</MDBNavLink>
+              <MDBNavLink to="#!">Our Mission</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              {/* possibly add some functionality here */}
-              <MDBDropdown>
-                <MDBDropdownToggle nav caret>
-                  <div className="d-none d-md-inline">Dropdown</div>
-                </MDBDropdownToggle>
-                <MDBDropdownMenu className="dropdown-default">
-                  <MDBDropdownItem href="#!">Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                </MDBDropdownMenu>
-              </MDBDropdown>
+            <MDBNavLink to="#!">Contact</MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>
           <MDBNavbarNav right>
@@ -62,11 +50,7 @@ render() {
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBDropdown>
-                <MDBDropdownToggle nav caret>
-                  <MDBIcon icon="user" className="mr-2" />Login
-                </MDBDropdownToggle>
-              </MDBDropdown>
+            <MDBNavLink to="#!">Login</MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>

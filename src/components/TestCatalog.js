@@ -9,7 +9,7 @@ const TestCatalog = () => {
   };
 
   return (
-    <MDBCard
+    <MDBCard position="auto"
         className="my-5 px-5 mx-auto"
         style={{ fontWeight: 300, maxWidth: "90%" }}
       >
