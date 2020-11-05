@@ -9,12 +9,14 @@ import PrivateRoute from './components/PrivateRoute'
 import ForgotPassword from "./components/ForgotPassword"
 import UpdateProfile from "./components/UpdateProfile"
 import LandingPage from "./components/LandingPage"
-import TestCatalog from "./components/TestCatalog"
+import TestCatalog from "./components/BackgroundImage/TestCatalog"
+import "./App.css"
+
 
 function App() {
   return (
     <>
-      <div>
+      <div className="app">
         <Router>
           <AuthProvider>
             <Switch>
