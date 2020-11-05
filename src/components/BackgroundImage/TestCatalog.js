@@ -12,7 +12,7 @@ const TestCatalog = () => {
   return (
     <MDBCard
         className="my-5 px-5 mx-auto bg"
-        style={{ fontWeight: 300, maxWidth: "90%" }} 
+        style={{ fontWeight: 300, maxWidth: "100%" }} 
       >
         <MDBCardBody style={{ paddingTop: 0 }}>
           <h2 className="h1-responsive font-weight-bold my-5 text-center">
@@ -151,7 +151,7 @@ const TestCatalog = () => {
                   <a href="#!">PHOSPHORUS</a>
                 </MDBCol>
                 <a href="#!" className="text-success">
-                  <MDBIcon icon="dollar-sign" /> 29
+                  <MDBIcon icon="dollar-sign" />29
                 </a>
               </div>
               <div className="d-flex justify-content-between text-primary" style={newsStyle}>

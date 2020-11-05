@@ -1,18 +1,19 @@
-import React from 'react';
-import LandingPage from "./components/LandingPage"
-import TestCatalog from "./components/BackgroundImage/TestCatalog"
-import Footer from './components/Footer'
+import React from "react";
+import NavBar from "./components/NavBar";
+import TestCatalog from "./components/BackgroundImage/TestCatalog";
+import Footer from "./components/Footer";
+import TableSearch from "./components/TableSearch";
 
 
 function HomePage() {
   return (
     <div>
-        <LandingPage />
-        <TestCatalog />
-        <Footer />
+      <NavBar />
+      <TestCatalog />
+      <TableSearch />
+      <Footer />
     </div>
-
-  )
+  );
 }
 
 export default HomePage;
