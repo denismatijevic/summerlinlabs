@@ -5,11 +5,12 @@ import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper/index";
 import Homepage from "./pages/Homepage";
 import Contact from "./pages/Contact";
+import "./App.css";
 
 function App() {
   return (
     <HashRouter basename="/">
-      <div>
+      <div className="app">
         <Navbar />
         <Wrapper>
           <Route exact path="/" component={Homepage} />
