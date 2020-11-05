@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBDataTable, MDBContainer } from "mdbreact";
+import { MDBDataTable, MDBContainer, MDBCard, MDBCardBody } from "mdbreact";
 
 const TableSearch = () => {
   const data = {
@@ -118,9 +118,17 @@ const TableSearch = () => {
   };
 
   return (
-    <MDBContainer>
-      <MDBDataTable striped bordered small data={data} />
-    </MDBContainer>
+    <MDBCard
+      className="my-5 px-5 mx-auto bg"
+      style={{ fontWeight: 300, maxWidth: "80%" }}
+    >
+      <MDBCardBody style={{ paddingTop: 0 }}>
+        <h2 className="h1-responsive font-weight-bold my-5 text-center">
+          Single Tests
+        </h2>
+        <MDBDataTable striped bordered small data={data} />
+      </MDBCardBody>
+    </MDBCard>
   );
 };
 
