@@ -8,27 +8,12 @@ import Login from "./components/Login"
 import PrivateRoute from './components/PrivateRoute'
 import ForgotPassword from "./components/ForgotPassword"
 import UpdateProfile from "./components/UpdateProfile"
-import LandingPage from "./components/LandingPage"
-import TestCatalog from "./components/BackgroundImage/TestCatalog"
 import "./App.css"
-
 
 function App() {
   return (
-    <>
-      <div className="app">
-        <Router>
-          <AuthProvider>
-            <Switch>
-              <LandingPage />
-            </Switch>
-          </AuthProvider>
-        </Router>
-        <div>
-          <TestCatalog />
-        </div>
-      </div>
-      <Container className="d-felx align-items-center justify-content-center"
+      <Container
+        className="d-flex align-items-center justify-content-center"
         style={{ minHeight: "100vh" }}
       >
         <div className="w-100" style={{ maxWidth: "400px" }}>
@@ -45,9 +30,7 @@ function App() {
           </Router>
         </div>
       </Container>
-    </>
   )
 }
-
 
 export default App;
