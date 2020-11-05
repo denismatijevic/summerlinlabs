@@ -1,8 +1,8 @@
-import React from 'react';
-import LandingPage from "./components/LandingPage"
-import TestCatalog from "./components/TestCatalog"
-import Footer from './components/Footer'
-import Main from './Main'
+import React from "react";
+import LandingPage from "./components/LandingPage";
+import TestCatalog from "./components/TestCatalog";
+import Footer from "./components/Footer";
+import Main from "./Main";
 
 function App() {
   return (
@@ -12,8 +12,7 @@ function App() {
       <Main />
       <Footer />
     </>
-  )
+  );
 }
-
 
 export default App;
