@@ -50,7 +50,7 @@ render() {
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-            <MDBNavLink to="#!">Login</MDBNavLink>
+            <MDBNavLink active to="#!">Login</MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>

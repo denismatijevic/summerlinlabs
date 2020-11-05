@@ -3,7 +3,7 @@ import LandingPage from "./components/LandingPage"
 import TestCatalog from "./components/TestCatalog"
 import Footer from './components/Footer'
 
-function Main() {
+function HomePage() {
   return (
     <div>
         <LandingPage />
@@ -14,4 +14,4 @@ function Main() {
   )
 }
 
-export default Main;
+export default HomePage;

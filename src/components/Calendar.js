@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import MDBFullCalendar from "mdb-react-calendar";
 // import { addHours, addDays, addWeeks, startOfWeek } from "date-fns";
 
 const today = new Date();
@@ -51,13 +50,6 @@ class Calendar extends Component {
       { color: "secondary-color", title: "Footbal", dark: true },
     ];
 
-    return (
-      <MDBFullCalendar
-        colors={arrOfObjects}
-        tasks={this.state.tasks}
-        btnSizes="sm"
-      />
-    );
   }
 }
 
