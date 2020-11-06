@@ -1,5 +1,5 @@
 import React from 'react';
-import labIMG from './lab-test.jpg'
+import labIMG from '../../Assets/lab-test.jpg'
 import { MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBRow, MDBCol, MDBIcon } from 'mdbreact';
 
 const MissionStatement = () => {
