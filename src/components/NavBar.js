@@ -56,7 +56,7 @@ class NavBar extends Component {
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink active to="#!">
+              <MDBNavLink active to="/login">
                 Login
               </MDBNavLink>
             </MDBNavItem>
