@@ -38,7 +38,7 @@ class NavBar extends Component {
               <MDBNavLink to="#!">Make An Appointment</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Our Mission</MDBNavLink>
+              <MDBNavLink to="/mission">Our Mission</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBNavLink to="/contact">Contact</MDBNavLink>

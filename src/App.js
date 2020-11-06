@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper/index";
 import TestPage from "./pages/Testpage";
 import Contact from "./pages/Contact";
+import MissionState from "./pages/Mission";
 import HomePage from "./pages/Homepage";
 import LoginPage from "./pages/LoginPage"
 import "./App.css";
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/catalog" component={TestPage} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/login" component={LoginPage} />
+          <Route exact path="/mission" component={MissionState} />
         </Wrapper>
         <Footer />
       </div>
