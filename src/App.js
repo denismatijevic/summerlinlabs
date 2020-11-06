@@ -7,7 +7,7 @@ import TestPage from "./pages/Testpage";
 import Contact from "./pages/Contact";
 import MissionState from "./pages/Mission";
 import HomePage from "./pages/Homepage";
-import LoginPage from "./pages/LoginPage"
+import LoginPage from "./pages/LoginPage";
 import "./App.css";
 
 function App() {
