@@ -36,11 +36,12 @@ const FooterPage = () => {
       </MDBContainer>
       <div className="footer-copyright text-center py-1">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> Summerlin Labs </a>
+          &copy; {new Date().getFullYear()} Copyright:{" "}
+          <a href="https://www.mdbootstrap.com"> Summerlin Labs </a>
         </MDBContainer>
       </div>
     </MDBFooter>
   );
-}
+};
 
 export default FooterPage;
