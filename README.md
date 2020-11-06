@@ -19,7 +19,7 @@
 * Adding admin profiles where they are able to see test results
 * Client profiles where they can see their individual results
 * Scheduling appointments for corporate testing
-
+* host it with a proper URL
 
 ## Link 
 
