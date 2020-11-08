@@ -9,10 +9,10 @@ const FooterPage = () => {
           <MDBCol md="6">
             <h5 className="title">Summerlin Labs</h5>
             <p>
-              Adress <br />
-              Phone Number <br />
-              Contact Name <br />
-              Additional Info
+              101 Examination BLVD <br />
+              801-555-5555 <br />
+              Dr. Gordon Freeman <br />
+              Call us with any questions
             </p>
           </MDBCol>
           <MDBCol md="6">
