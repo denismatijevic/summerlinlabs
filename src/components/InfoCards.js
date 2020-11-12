@@ -6,7 +6,7 @@ const InfoCards = () => {
     <MDBContainer>
       <div className="container">
         {/* <!--Section: Features v.1--> */}
-        <section id="features" className="mt-4 mb-5 pb-5">
+        <section id="features" className="mt-4">
           {/* <!--Section heading--> */}
           <h1
             className="text-center mb-5 mt-5 pt-5 font-weight-bold dark-grey-text wow fadeIn"
