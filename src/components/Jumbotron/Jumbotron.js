@@ -22,7 +22,7 @@ const Jumbotron = () => {
                   Press Release
                 </MDBCardTitle>
                 <h3 className="mx-5 mb-5 font-weight-bold">
-                  Roche's highly accurate anitbody test for COVID-19 goes live
+                  Roche's highly accurate antibody test for COVID-19 goes live
                   in the US
                 </h3>
                 <MDBBtn color="primary" className="mb-5">
