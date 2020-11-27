@@ -36,20 +36,20 @@ const MissionStatement = () => {
                 <MDBIcon fab icon="facebook-f" />
               </a>
               <hr />
-              <ul class="list-group list-group-horizontal-sm pl-3">
-                <li class="list-group-item border-0">
+              <ul className="list-group list-group-horizontal-sm pl-3">
+                <li className="list-group-item border-0">
                   {" "}
                   <a href="https://www.cola.org/">
                     <img src={Cola} alt="COLA Accredited"></img>
                   </a>
                 </li>
-                <li class="list-group-item border-0">
+                <li className="list-group-item border-0">
                   {" "}
                   <a href="https://ahca.myflorida.com/">
                     <img src={AHCA} alt="COLA Accredited"></img>
                   </a>
                 </li>
-                <li class="list-group-item border-0">
+                <li className="list-group-item border-0">
                   {" "}
                   <a href="https://www.cap.org/">
                     <img src={CAP} alt="COLA Accredited"></img>
