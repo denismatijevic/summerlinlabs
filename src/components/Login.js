@@ -22,7 +22,7 @@ export default function Login() {
        await auth.signInWithEmailAndPassword(emailRef.current.value, passwordRef.current.value)
        .then( cred => {
          userID = cred.user.uid;
-        //  console.log(user)
+        //  console.log(cred.user)
        })
        history.push('/')
       } catch {

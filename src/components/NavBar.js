@@ -45,6 +45,11 @@ class NavBar extends Component {
             </MDBNavItem>
           </MDBNavbarNav>
           <MDBNavbarNav right>
+          <MDBNavItem>
+              <MDBNavLink className="admin" to="/admin" style={{display: "none"}}>
+                See Schedule
+              </MDBNavLink>
+            </MDBNavItem>
             <MDBNavItem>
               <MDBNavLink className="waves-effect waves-light" to="#!">
                 <MDBIcon fab icon="twitter" />
