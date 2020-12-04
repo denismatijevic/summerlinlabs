@@ -9,7 +9,6 @@ import MissionState from "./pages/Mission";
 import HomePage from "./pages/Homepage";
 import LoginPage from "./pages/LoginPage"
 import "./App.css";
-import AdminSchedule from "./components/Admin/AdminSchedule";
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/login" component={LoginPage} />
           <Route exact path="/mission" component={MissionState} />
-          <Route exact path="/admin" component={AdminSchedule} />
         </Wrapper>
         <Footer />
       </div>

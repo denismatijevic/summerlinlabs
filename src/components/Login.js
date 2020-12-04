@@ -19,7 +19,7 @@ export default function Login() {
       try {
         setError("")
         setLoading(true)
-       await auth.signInWithEmailAndPassword(emailRef.current.value, passwordRef.current.value)
+       await login(emailRef.current.value, passwordRef.current.value)
        .then( cred => {
          userID = cred.user.uid;
         //  console.log(cred.user)
