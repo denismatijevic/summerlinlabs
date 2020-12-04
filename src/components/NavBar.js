@@ -9,11 +9,27 @@ import {
   MDBCollapse,
   MDBIcon,
 } from "mdbreact";
+import {auth} from "../firebase";
 
 class NavBar extends Component {
+
   state = {
     isOpen: false,
   };
+
+checkLogin(){
+  let user = auth.currentUser;
+
+  if (user) {
+    console.log("logged in")
+  } else {
+    console.log("logged out")
+  }
+}
+
+componentDidMount(){
+  this.checkLogin()
+}
 
   toggleCollapse = () => {
     this.setState({ isOpen: !this.state.isOpen });
@@ -45,6 +61,11 @@ class NavBar extends Component {
             </MDBNavItem>
           </MDBNavbarNav>
           <MDBNavbarNav right>
+          {/* <MDBNavItem>
+              <MDBNavLink className="admin" to="/admin">
+                See Schedule
+              </MDBNavLink>
+            </MDBNavItem> */}
             <MDBNavItem>
               <MDBNavLink className="waves-effect waves-light" to="#!">
                 <MDBIcon fab icon="twitter" />
@@ -56,7 +77,7 @@ class NavBar extends Component {
               </MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink active to="/login">
+              <MDBNavLink to="/login">
                 Login
               </MDBNavLink>
             </MDBNavItem>
