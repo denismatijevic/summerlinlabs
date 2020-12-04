@@ -1,21 +1,25 @@
 import React, { useRef } from 'react';
 import { MDBBtn, MDBIcon, MDBInput, MDBCard, MDBCardBody } from "mdbreact";
 
-function AdminSchedule() {
+export default function AdminSchedule() {
     const emailRef = useRef()
 
+    //this function should get uid of entered email in input box, and set that uid as admin in the admin collection in database
     function makeAdmin(e){
         e.preventDefault();
-        console.log(emailRef.current.state.innerValue)
-        console.log("submitted")
+        //grab value of email
+        // const adminEmail = emailRef.current.state.innerValue;
+        //send a query to database to grab uid of this email
+
+        //save email and uid to admin collection in database
     }
 
     return (
         <MDBCard className="my-5 px-5 mx-auto bg"
-        style={{ fontWeight: 300, maxWidth: "30%" }}>
+        style={{ fontWeight: 300}}>
               <MDBCardBody>
                <form className="make-admin-form" onSubmit={makeAdmin}>
-                <p className="h5 text-center mb-4">Make the Following Email an Admin</p>
+                <p className="h5 text-center mb-4">Make the following email an admin:</p>
                 <div className="admin-email">
                   <MDBInput
                     label="email"
@@ -41,5 +45,3 @@ function AdminSchedule() {
           </MDBCard>
       );
     }
-
-export default AdminSchedule;
